@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.bulletin {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.editable {
+  font-size: 1rem;
+  color: #333;
+}
+
+.edit-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #3498db;
+}
+
+input.edit-input {
+  font-size: 1rem;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
